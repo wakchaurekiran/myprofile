@@ -13,7 +13,7 @@
                             "Here is the message:\n $message";
 
 
-$to = "pradipwarkhade74@gmail.com";
+$to = "wakchaurekiranmk@sanjivani.org.in";
 
 $headers = "From: $visitor_email \r\n";
 
