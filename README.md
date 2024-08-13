@@ -1,12 +1,12 @@
-# Dr. Yogesh Deshmukh's Portfolio Website
+# Dr. Kiran Wakchaure's Portfolio Website
 
 ## Introduction
 
-Welcome to Dr. Yogesh Deshmukh's Portfolio Website! This website showcases the skills, projects, study material and experiences of Dr. Yogesh Deshmukh.
+Welcome to Dr. Kiran Wakchaure's Portfolio Website! This website showcases the skills, projects, study material and experiences of Dr. Yogesh Deshmukh.
 
-## About Dr. Yogesh Deshmukh
+## About Dr. Kiran Wakchaure
 
-Dr. Yogesh Deshmukh is a passionate and dedicated Teacher. 
+Dr. Kiran Wakchaure is a passionate and dedicated Teacher. 
 
 ## Technologies Used
 
