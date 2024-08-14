@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Thinking Course</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+            position: relative;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            position: relative;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .module {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .module h2 {
+            margin-top: 0;
+        }
+
+        .video, .quiz, .discussion-forum {
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .syllabus ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .instructor, .grading {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faculty {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .faculty img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .faculty-info {
+            max-width: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Design Thinking Course</h1>
+    </header>
+
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <div class="dropdown">
+            <a href="#">Design Thinking</a>
+            <div class="dropdown-content">
+                <a href="#empathy">Empathy</a>
+                <a href="#define">Define</a>
+                <a href="#ideate">Ideate</a>
+                <a href="#prototype">Prototype</a>
+                <a href="#test">Test</a>
+            </div>
+        </div>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#instructor">Instructor</a>
+        <a href="#grading">Grading</a>
+    </nav>
+
+    <div class="container">
+        <!-- Introduction Section -->
+        <div class="module" id="introduction">
+            <h2>Introduction to Design Thinking</h2>
+            <div class="video">
+                <p>Watch this introductory video:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-link" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Syllabus Section -->
+        <div class="module syllabus" id="syllabus">
+            <h2>Course Syllabus</h2>
+            <p>This course covers the following topics in the design thinking process:</p>
+            <ul>
+                <li>Introduction to Design Thinking</li>
+                <li>Empathy and User Research</li>
+                <li>Defining the Problem</li>
+                <li>Ideation Techniques</li>
+                <li>Prototyping Methods</li>
+                <li>Testing and Iteration</li>
+            </ul>
+        </div>
+
+        <!-- Instructor Section -->
+        <div class="instructor" id="instructor">
+            <h2>Instructor Information</h2>
+            <div class="faculty">
+                <img src="instructor-photo.jpg" alt="Instructor Photo">
+                <div class="faculty-info">
+                    <p><strong>Instructor Name:</strong> Dr. Jane Doe</p>
+                    <p><strong>Email:</strong> jane.doe@example.com</p>
+                    <p>Dr. Jane Doe has extensive experience in design thinking, having led multiple successful projects in the industry and academia. She is passionate about teaching and looks forward to guiding you through this course.</p>
+                </div>
+            </div>
+
+            <h3>Supporting Faculty</h3>
+            <div class="faculty">
+                <img src="faculty1-photo.jpg" alt="Faculty Member 1">
+                <div class="faculty-info">
+                    <p><strong>Faculty Member 1:</strong> John Smith</p>
+                    <p><strong>Email:</strong> john.smith@example.com</p>
+                    <p>John Smith specializes in user research and has over 10 years of experience working with various design teams to develop user-centered products.</p>
+                </div>
+            </div>
+
+            <div class="faculty">
+                <img src="faculty2-photo.jpg" alt="Faculty Member 2">
+                <div class="faculty-info">
+                    <p><strong>Faculty Member 2:</strong> Mary Johnson</p>
+                    <p><strong>Email:</strong> mary.johnson@example.com</p>
+                    <p>Mary Johnson is an expert in prototyping and has a background in industrial design. She will be assisting with the hands-on aspects of the course.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grading Section -->
+        <div class="grading" id="grading">
+            <h2>Grading Criteria</h2>
+            <p>Your performance in this course will be evaluated based on the following components:</p>
+            <ul>
+                <li><strong>Participation:</strong> 20% (including discussions and interactive sessions)</li>
+                <li><strong>Assignments:</strong> 40% (weekly assignments based on the course modules)</li>
+                <li><strong>Project Work:</strong> 30% (a final project encompassing all stages of design thinking)</li>
+                <li><strong>Final Quiz:</strong> 10% (to assess your understanding of the key concepts)</li>
+            </ul>
+        </div>
+
+        <!-- Empathy Section -->
+        <div class="module" id="empathy">
+            <h2>Empathy</h2>
+            <p>Understanding the user's needs is crucial. Try this interactive scenario:</p>
+            <div class="interactive-scenario">
+                <!-- Placeholder for interactive scenario -->
+                <p>[Interactive Scenario Here]</p>
+            </div>
+        </div>
+
+        <!-- Define Section -->
+        <div class="module" id="define">
+            <h2>Define</h2>
+            <p>Let's create a problem statement together:</p>
+            <div class="quiz">
+                <!-- Placeholder for quiz or interactive exercise -->
+                <p>[Interactive Exercise Here]</p>
+            </div>
+        </div>
+
+        <!-- Ideate Section -->
+        <div class="module" id="ideate">
+            <h2>Ideate</h2>
+            <p>Brainstorm ideas with your peers:</p>
+            <div class="discussion-forum">
+                <!-- Placeholder for discussion forum -->
+                <p>[Discussion Forum Here]</p>
+            </div>
+        </div>
+
+        <!-- Prototype Section -->
+        <div class="module" id="prototype">
+            <h2>Prototype</h2>
+            <p>Create a quick prototype using the tools provided:</p>
+            <div class="interactive-prototype">
+                <!-- Placeholder for prototype tool -->
+                <p>[Prototype Tool Here]</p>
+            </div>
+        </div>
+
+        <!-- Test Section -->
+        <div class="module" id="test">
+            <h2>Test</h2>
+            <p>Test your solution with these case studies:</p>
+            <div class="case
