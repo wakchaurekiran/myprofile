@@ -315,6 +315,20 @@ header .navbar ul li a:hover{
 }
 /* About section ends */
 
+.about .row .teaching-philosophy h2 {
+    font-size: 2.5rem;
+    color: rgb(68, 24, 230);
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+.about .row .teaching-philosophy p {
+    font-size: 2rem;
+    color: rgb(68, 24, 230);
+    font-weight: normal;
+    padding: 0.5rem 0;
+}
+
 /* Education Section strats */
 .education .box-container{
     display: flex;
